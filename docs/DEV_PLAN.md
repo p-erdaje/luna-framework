@@ -126,6 +126,7 @@ Create a highly modular, reusable, scalable, and maintainable framework where ga
 
 Architecture Layers
 
+```
 ┌───────────────────────────────────────────────┐
 │                  Presentation Layer           │
 │ HTML5 UI • CSS • HUD • Menus • Settings       │
@@ -153,9 +154,11 @@ Architecture Layers
 │              Infrastructure                   │
 │ Fastify • Prisma • PostgreSQL • File System   │
 └───────────────────────────────────────────────┘
+```
 
 ---PROJECT STRUCTURE---
 
+```
 Root
 
 apps/
@@ -180,10 +183,12 @@ scripts/
 tools/
 
 .github/
+```
 
 
 ---FOLDER STRUCTURE (Framework Core)---
 
+```
 framework/
 
 core/
@@ -218,6 +223,7 @@ interfaces/
 constants/
 
 tests/
+```
 
 
 ---CODING STANDARDS---
@@ -549,42 +555,46 @@ Minimum requirements: WebGL-capable browser recommended; Canvas fallback ensures
 
 ***PHASE 1: Planning & Architecture (Current)***
 
-#    | Task                                                   | Status
-1    | Project Vision                                         | ✅
-2    | Production Tech Stack                                  | ✅
-3    | Engineering Principles                                 | ✅
-3.5  | Monorepo Strategy & Package Boundaries                 | ⏳ (NEW)
-4    | Software Architecture                                  | ⏳
-4.5  | Phaser-to-HTML UI Communication Bridge Design          | ⏳ (NEW)
-5    | Project Structure                                      | ⏳
-6    | Folder Structure                                       | ⏳
-7    | Coding Standards                                       | ⏳
-8    | Naming Conventions                                     | ⏳
-9    | OOP Guidelines                                         | ⏳
-10   | SOLID Principles                                       | ⏳
-11   | Design Patterns                                        | ⏳
-11.5 | Multiplayer State-Sync & Reconciliation Spec           | ⏳ (NEW)
-12   | DSA Strategy                                           | ⏳
-13   | Performance Strategy                                   | ⏳
-13.5 | Automated Sprite Packing Build Pipeline Spec           | ⏳ (NEW)
-14   | Public API Design Guidelines                           | ⏳ (NEW)
-15   | Error Handling Strategy                                | ⏳ (NEW)
-15.5 | CI/CD Pipeline Definition                              | ⏳ (NEW)
-15.6 | Testing Strategy (Coverage & ECS test approach)        | ⏳ (NEW)
-15.7 | Database Migration & Environment Strategy              | ⏳ (NEW)
-15.8 | Framework Versioning Strategy (SemVer)                 | ⏳ (NEW)
-15.9 | Browser & Device Compatibility Targets                 | ⏳ (NEW)
-16   | Git Workflow                                           | ⏳
-17   | Development Workflow                                   | ⏳
-18   | Documentation Structure                                | ⏳
-19   | Framework Philosophy                                   | ⏳
-20   | License Selection                                      | ⏳ (NEW)
-21   | Roadmap                                                | ⏳
+| #    | Task                                             | Status |
+| ---- | ------------------------------------------------ | :----: |
+| 1    | Project Vision                                   |   ✅   |
+| 2    | Production Tech Stack                            |   ✅   |
+| 3    | Engineering Principles                           |   ✅   |
+| 3.5  | Monorepo Strategy & Package Boundaries (NEW)      |   ✅   |
+| 4    | Software Architecture                            |   ✅   |
+| 4.5  | Phaser-to-HTML UI Communication Bridge Design (NEW) | ⏳   |
+| 5    | Project Structure                                |   ✅   |
+| 6    | Folder Structure                                 |   ✅   |
+| 7    | Coding Standards                                 |   ✅   |
+| 8    | Naming Conventions                               |   ✅   |
+| 9    | OOP Guidelines                                   |   ✅   |
+| 10   | SOLID Principles                                 |   ✅   |
+| 11   | Design Patterns                                  |   ✅   |
+| 11.5 | Multiplayer State-Sync & Reconciliation Spec (NEW) | ⏳   |
+| 12   | DSA Strategy                                     |   ✅   |
+| 13   | Performance Strategy                             |   ✅   |
+| 13.5 | Automated Sprite Packing Build Pipeline Spec (NEW) | ⏳   |
+| 14   | Public API Design Guidelines (NEW)               |   ✅   |
+| 15   | Error Handling Strategy (NEW)                    |   ✅   |
+| 15.5 | CI/CD Pipeline Definition (NEW)                  |   ✅   |
+| 15.6 | Testing Strategy — Coverage & ECS approach (NEW) |   ✅   |
+| 15.7 | Database Migration & Environment Strategy (NEW)  |   ✅   |
+| 15.8 | Framework Versioning Strategy — SemVer (NEW)     |   ✅   |
+| 15.9 | Browser & Device Compatibility Targets (NEW)     |   ✅   |
+| 16   | Git Workflow                                     |   ✅   |
+| 17   | Development Workflow                             |   ✅   |
+| 18   | Documentation Structure                          |   ✅   |
+| 19   | Framework Philosophy                             |   ✅   |
+| 20   | License Selection (NEW)                          |   ✅   |
+| 21   | Roadmap                                          |   ✅   |
+
+> **Still open:** 4.5, 11.5, and 13.5 have a tool/approach chosen but no detailed spec written yet. These will be fleshed out when their corresponding systems are actually built (Phase 2–4).
 
 
 ***PHASE 2: Framework Foundation***
 
 Example:
+```
 Core
 ├── Game
 ├── SceneManager
@@ -597,6 +607,7 @@ Core
 ├── SaveManager
 ├── ConfigManager
 └── TimeManager
+```
 
 
 ***PHASE 3: Core Gameplay Systems***

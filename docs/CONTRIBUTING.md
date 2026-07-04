@@ -60,4 +60,4 @@ npm run test
 
 ## Versioning
 
-Framework packages (`@luna/*`) follow Semantic Versioning. Breaking API changes require a MAJOR bump and a documented migration path — see [DEV_PLAN.md](https://github.com/p-erdaje/luna-framework/blob/main/docs/DEV_PLAN.md).
+Framework packages (`@luna/*`) follow Semantic Versioning. Breaking API changes require a MAJOR bump and a documented migration path — see [DEV_PLAN.md](./DEV_PLAN.md#framework-versioning-strategy-new).
