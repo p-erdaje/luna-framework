@@ -23,5 +23,11 @@ export default tseslint.config(
   },
   {
     ignores: ["dist/**", "coverage/**", "node_modules/**", "*.config.*"]
+  },
+  {
+    files: ["**/*.spec.ts", "**/*.test.ts"],
+    rules: {
+      "no-magic-numbers": "off"
+    }
   }
 );
