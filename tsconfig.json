@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/framework/core" },
+    { "path": "./packages/framework/physics" },
+    { "path": "./packages/framework/ui" },
+    { "path": "./packages/framework/networking" },
+    { "path": "./packages/framework/utilities" }
+  ]
+}

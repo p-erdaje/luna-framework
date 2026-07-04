@@ -1,0 +1,9 @@
+/**
+ * @luna/core
+ *
+ * Entry point for the framework core package.
+ * Managers, EventBus, and Services will be exported here as they are
+ * implemented in Phase 2 (see Dev_Plan.txt -> PHASE 2: Framework Foundation).
+ */
+
+export const LUNA_CORE_VERSION = "0.1.0";
