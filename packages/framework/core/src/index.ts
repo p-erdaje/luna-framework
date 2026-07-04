@@ -10,3 +10,6 @@ export const LUNA_CORE_VERSION = "0.1.0";
 
 export { EventBus } from "./events/EventBus";
 export type { EventHandler, IEventBus } from "./events/IEventBus";
+
+export { ConfigManager } from "./config/ConfigManager";
+export type { IConfigManager } from "./config/IConfigManager";
