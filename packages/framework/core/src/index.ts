@@ -26,3 +26,9 @@ export { InputManager } from "./input/InputManager";
 export { KeyboardInputSourceAdapter } from "./input/KeyboardInputSourceAdapter";
 export type { IInputManager, InputActionEvent } from "./input/IInputManager";
 export type { IInputSourceAdapter } from "./input/IInputSourceAdapter";
+
+export { SaveManager } from "./save/SaveManager";
+export { LocalStorageAdapter } from "./save/LocalStorageAdapter";
+export { IndexedDbStorageAdapter } from "./save/IndexedDbStorageAdapter";
+export type { ISaveManager } from "./save/ISaveManager";
+export type { IStorageAdapter } from "./save/IStorageAdapter";
