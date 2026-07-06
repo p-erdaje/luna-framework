@@ -16,3 +16,8 @@ export type { IConfigManager } from "./config/IConfigManager";
 
 export { TimeManager } from "./time/TimeManager";
 export type { ITimeManager } from "./time/ITimeManager";
+
+export { SceneManager } from "./scene/SceneManager";
+export { PhaserSceneManagerAdapter } from "./scene/PhaserSceneManagerAdapter";
+export type { ISceneManager, SceneChangedEvent } from "./scene/ISceneManager";
+export type { IPhaserSceneManagerAdapter } from "./scene/IPhaserSceneManagerAdapter";
