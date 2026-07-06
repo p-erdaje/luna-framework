@@ -13,3 +13,6 @@ export type { EventHandler, IEventBus } from "./events/IEventBus";
 
 export { ConfigManager } from "./config/ConfigManager";
 export type { IConfigManager } from "./config/IConfigManager";
+
+export { TimeManager } from "./time/TimeManager";
+export type { ITimeManager } from "./time/ITimeManager";
