@@ -32,3 +32,13 @@ export { LocalStorageAdapter } from "./save/LocalStorageAdapter";
 export { IndexedDbStorageAdapter } from "./save/IndexedDbStorageAdapter";
 export type { ISaveManager } from "./save/ISaveManager";
 export type { IStorageAdapter } from "./save/IStorageAdapter";
+
+export { AssetManager } from "./assets/AssetManager";
+export { PhaserAssetLoaderAdapter } from "./assets/PhaserAssetLoaderAdapter";
+export type { AssetDescriptor } from "./assets/AssetDescriptor";
+export type { IAssetLoaderAdapter, AssetLoadResult } from "./assets/IAssetLoaderAdapter";
+export type {
+  IAssetManager,
+  AssetLoadProgressEvent,
+  AssetLoadCompleteEvent
+} from "./assets/IAssetManager";
