@@ -50,3 +50,16 @@ export { AudioManager } from "./audio/AudioManager";
 export { PhaserAudioAdapter } from "./audio/PhaserAudioAdapter";
 export type { IAudioManager } from "./audio/IAudioManager";
 export type { IAudioSourceAdapter, PlayOptions } from "./audio/IAudioSourceAdapter";
+
+export { NetworkManager } from "./network/NetworkManager";
+export { FetchHttpAdapter } from "./network/FetchHttpAdapter";
+export { NativeWebSocketAdapter } from "./network/NativeWebSocketAdapter";
+export type {
+  INetworkManager,
+  NetworkOpenEvent,
+  NetworkMessageEvent,
+  NetworkCloseEvent,
+  NetworkErrorEvent
+} from "./network/INetworkManager";
+export type { IHttpAdapter, HttpRequestConfig, HttpResponse } from "./network/IHttpAdapter";
+export type { IWebSocketAdapter, IWebSocketConnection } from "./network/IWebSocketAdapter";
