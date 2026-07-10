@@ -63,3 +63,6 @@ export type {
 } from "./network/INetworkManager";
 export type { IHttpAdapter, HttpRequestConfig, HttpResponse } from "./network/IHttpAdapter";
 export type { IWebSocketAdapter, IWebSocketConnection } from "./network/IWebSocketAdapter";
+
+export { Game } from "./game/Game";
+export type { IGame, GameManagers } from "./game/IGame";
