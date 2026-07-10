@@ -42,3 +42,6 @@ export type {
   AssetLoadProgressEvent,
   AssetLoadCompleteEvent
 } from "./assets/IAssetManager";
+
+export { UIBridgeStore } from "./ui-bridge/UIBridgeStore";
+export type { IUIBridgeStore, UIBridgeListener } from "./ui-bridge/IUIBridgeStore";
