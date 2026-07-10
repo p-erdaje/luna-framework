@@ -45,3 +45,8 @@ export type {
 
 export { UIBridgeStore } from "./ui-bridge/UIBridgeStore";
 export type { IUIBridgeStore, UIBridgeListener } from "./ui-bridge/IUIBridgeStore";
+
+export { AudioManager } from "./audio/AudioManager";
+export { PhaserAudioAdapter } from "./audio/PhaserAudioAdapter";
+export type { IAudioManager } from "./audio/IAudioManager";
+export type { IAudioSourceAdapter, PlayOptions } from "./audio/IAudioSourceAdapter";
