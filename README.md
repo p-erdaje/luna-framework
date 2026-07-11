@@ -1,4 +1,9 @@
-# Luna
+<p align="center">
+  <img src="./assets/brand/logo-full.png" alt="Luna Framework" width="220" />
+</p>
+
+<h1 align="center">Luna</h1>
+<p align="center"><em>Build. Play. Extend.</em></p>
 
 A modular, reusable web game framework built with **Phaser 3**, **TypeScript**, **Fastify**, and **Prisma**.
 
@@ -76,6 +81,7 @@ docs/                    # architecture, contributing, roadmap
 - [Getting Started](./docs/GETTING_STARTED.md) — local setup in more detail
 - [Contributing](./docs/CONTRIBUTING.md) — coding standards, commit conventions, branch rules
 - [Dev Plan](./docs/DEV_PLAN.md) — the full technical plan and roadmap
+- [Brand](./docs/BRAND.md) — logo, color palette, typography
 
 ---
 
