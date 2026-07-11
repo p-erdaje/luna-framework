@@ -2,7 +2,7 @@
 
 Quick reference for Luna's visual identity. For the full breakdown (logo construction, variations, icon sizes, usage previews), see the brand guide image below.
 
-![Luna Framework brand guide](../assets/brand/brand-guide-reference.png)
+![Luna Framework brand guide](../assets/brand/reference/brand-guide-reference.png)
 
 ## Logo files
 
