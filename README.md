@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/brand/logo-full.svg" alt="Luna Framework" width="220" />
+  <img src="./assets/brand/logo-full.png" alt="Luna Framework" width="220" />
 </p>
 
 <h1 align="center">Luna</h1>

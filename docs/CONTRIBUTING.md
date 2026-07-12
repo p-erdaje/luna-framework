@@ -54,12 +54,9 @@ npm run test
 
 ## Branching
 
-- No direct pushes to `main` — always open a PR from a feature/fix branch.
-- Branch naming: `feat/...`, `fix/...`, `docs/...` (matches Conventional Commit types).
+- No direct pushes to `main` or `develop`.
 - Open a PR; CI (lint, typecheck, test, build) must pass before merge.
 - Squash merge preferred for a clean history.
-- A `develop` staging branch will be introduced once the project has multiple
-  active contributors or a formal release cadence — not needed yet at solo/early stage.
 
 ## Versioning
 

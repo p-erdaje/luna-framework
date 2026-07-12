@@ -66,3 +66,8 @@ export type { IWebSocketAdapter, IWebSocketConnection } from "./network/IWebSock
 
 export { Game } from "./game/Game";
 export type { IGame, GameManagers } from "./game/IGame";
+
+export { Entity } from "./ecs/Entity";
+export { World } from "./ecs/World";
+export type { IComponent } from "./ecs/IComponent";
+export type { ISystem } from "./ecs/ISystem";
