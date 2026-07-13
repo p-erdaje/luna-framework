@@ -71,3 +71,11 @@ export { Entity } from "./ecs/Entity";
 export { World } from "./ecs/World";
 export type { IComponent } from "./ecs/IComponent";
 export type { ISystem } from "./ecs/ISystem";
+
+export { HealthSystem } from "./gameplay/health/HealthSystem";
+export type { HealthComponent } from "./gameplay/health/HealthComponent";
+export type {
+  HealthChangedEvent,
+  HealthDiedEvent,
+  HealthRevivedEvent
+} from "./gameplay/health/HealthEvents";
