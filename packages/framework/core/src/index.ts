@@ -79,3 +79,12 @@ export type {
   HealthDiedEvent,
   HealthRevivedEvent
 } from "./gameplay/health/HealthEvents";
+
+export { InventorySystem } from "./gameplay/inventory/InventorySystem";
+export type { InventoryComponent } from "./gameplay/inventory/InventoryComponent";
+export type { ItemStack } from "./gameplay/inventory/ItemStack";
+export type {
+  InventoryItemAddedEvent,
+  InventoryItemRemovedEvent,
+  InventoryFullEvent
+} from "./gameplay/inventory/InventoryEvents";
