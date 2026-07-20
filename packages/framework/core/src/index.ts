@@ -88,3 +88,9 @@ export type {
   InventoryItemRemovedEvent,
   InventoryFullEvent
 } from "./gameplay/inventory/InventoryEvents";
+
+export { CombatSystem } from "./gameplay/combat/CombatSystem";
+export type { AttackOptions, AttackResult } from "./gameplay/combat/CombatSystem";
+export type { AttackComponent } from "./gameplay/combat/AttackComponent";
+export type { DefenseComponent } from "./gameplay/combat/DefenseComponent";
+export type { AttackResolvedEvent, AttackOnCooldownEvent } from "./gameplay/combat/CombatEvents";
