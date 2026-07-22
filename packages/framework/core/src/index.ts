@@ -94,3 +94,14 @@ export type { AttackOptions, AttackResult } from "./gameplay/combat/CombatSystem
 export type { AttackComponent } from "./gameplay/combat/AttackComponent";
 export type { DefenseComponent } from "./gameplay/combat/DefenseComponent";
 export type { AttackResolvedEvent, AttackOnCooldownEvent } from "./gameplay/combat/CombatEvents";
+
+export { AchievementSystem } from "./gameplay/achievements/AchievementSystem";
+export type {
+  AchievementCriteria,
+  AchievementDefinition,
+  AchievementState
+} from "./gameplay/achievements/AchievementDefinition";
+export type {
+  AchievementProgressEvent,
+  AchievementUnlockedEvent
+} from "./gameplay/achievements/AchievementEvents";
